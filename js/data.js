@@ -1,0 +1,92 @@
+const projectsData = [
+  {
+    id: 7,
+    title: "Microfinance coopérative et gouvernance du crédit (Bonaba)",
+    image: "assets/bonaba-1.jpeg",
+    type: "Renforcement Institutionnel",
+    zone: "Bonaba, Sénégal",
+    secteur: "Microfinance",
+    description: "Formation et structuration d'un comité de microcrédit au sein de la coopérative Agricom de Bonaba, pour doter les communautés rurales d'un dispositif autonome, transparent et fonctionnel de gestion du crédit.",
+    full_content: "<h3>Contexte et Objectif</h3><p>Dans le cadre du renforcement institutionnel de la coopérative Agricom de Bonaba, la FRAO, en partenariat avec Better World, a conduit une formation sur le fonctionnement de la microfinance, la gouvernance coopérative et la mise en place d'un comité de gestion du microcrédit. La finalité était de doter la coopérative d'un dispositif autonome, transparent et fonctionnel de gestion du crédit.</p><h3>Dispositif de Formation</h3><p>La formation s'est déroulée sur 4 jours, suivis d'un atelier institutionnel d'une journée. Elle a réuni 40 membres — hommes, femmes et jeunes — issus de 4 villages selon une approche participative et pratique, avec évaluation par pré-test et post-test. Les résultats ont montré une amélioration significative des capacités, passant d'un niveau initial à un niveau très satisfaisant en fin de formation.</p><h3>Modules Clés</h3><p>La formation a couvert quatre modules essentiels : les fondamentaux de la microfinance (concepts, principes, impact social), la gouvernance et participation (cadre réglementaire, mobilisation des ressources), les outils de gestion administrative et financière avec exercices pratiques, et la gestion des risques (identification, prévention, contrôle participatif).</p><h3>Résultats et Structuration</h3><p>L'initiative a abouti à la mise en place effective d'un comité de microcrédit structuré en 3 commissions fonctionnelles : réception des demandes, attribution des crédits et suivi des remboursements. La gouvernance a été formalisée avec des rôles clairs, des critères de sélection et des procédures de crédit définis. Cette expérience constitue un modèle reproductible pour d'autres coopératives agricoles de la région.</p>"
+  },
+  {
+    id: 8,
+    title: "Autonomisation des femmes par la transformation agroalimentaire (Mballing)",
+    image: "assets/mballing-1.jpeg",
+    type: "Inclusion Sociale",
+    zone: "Mballing, Sénégal",
+    secteur: "Genre & Agroalimentaire",
+    description: "Projet pilote d'autonomisation économique de 15 femmes fondatrices d'une coopérative de transformation de mangues séchées à Mballing, combinant séchage solaire, certification HACCP et accès au marché.",
+    full_content: "<h3>Contexte et Enjeu Stratégique</h3><p>Dans les zones rurales du Sénégal, les femmes sont fortement impliquées dans des activités informelles à faible valeur ajoutée, avec une forte vulnérabilité économique et des pertes importantes de produits agricoles — notamment les mangues qui dépassent 40%. Le projet de Mballing vise à transformer cette contrainte en opportunité à travers la structuration d'une coopérative féminine et la valorisation de fruits locaux par séchage solaire.</p><h3>Actions Structurantes</h3><p>Le projet a débuté par l'identification de 15 femmes fondatrices et leur sensibilisation aux principes coopératifs, avant de lancer le processus de création juridique de la coopérative. Le modèle économique retenu mise sur la transformation de mangues séchées avec diversification vers la papaye, l'arachide et le cajou, pour des produits à forte valeur ajoutée orientés vers les marchés de Mbour et Dakar.</p><h3>Partenariats Techniques</h3><p>Deux partenaires institutionnels de premier plan appuient le volet technique : l'Institut de Technologie Alimentaire (ITA) pour la formation et la certification HACCP, et l'École Supérieure Polytechnique de Dakar pour la conception et la fabrication de séchoirs solaires adaptés. Un budget de 7 000 € permet de mener cette phase pilote avec réalisme opérationnel.</p><h3>Impacts Attendus et Feuille de Route 2026</h3><p>Le projet cible 15 femmes en phase pilote, avec une extension à 50 femmes dans les villages de Mballing, Warang et Nianing. Les impacts attendus incluent la réduction des pertes agricoles, la création de revenus féminins stables et le développement d'une micro-industrie locale. La feuille de route 2026 prévoit : la structuration juridique de la coopérative, l'installation des séchoirs solaires, la formation technique, une production pilote et un premier test commercial.</p>"
+  },
+  {
+    id: 9,
+    title: "Structuration de la filière avicole ouest-africaine (IPAS-FRAO-CNA)",
+    image: "assets/tof15.jpg",
+    type: "Gouvernance Régionale",
+    zone: "Sénégal / Afrique de l'Ouest",
+    secteur: "Aviculture",
+    description: "Plateforme régionale multi-acteurs pour structurer et développer la filière avicole en Afrique de l'Ouest, portée par la FRAO en lien avec la CEDEAO, l'IPAS et le Conseil National de l'Aviculture.",
+    full_content: "<h3>Contexte de la Filière Avicole</h3><p>L'aviculture en Afrique de l'Ouest constitue un levier majeur de sécurité alimentaire et de création d'emplois, mais reste structurellement déficitaire face à la demande régionale. Le secteur est contraint par une forte dépendance aux intrants importés, des coûts de production élevés (l'alimentation représente ~70% des coûts), un déficit de financement et l'absence d'une vision stratégique régionale structurée.</p><h3>Objectifs et Résultats de l'Atelier</h3><p>L'atelier du 1er juillet 2025 à Mbao a réuni les acteurs de la CEDEAO, de la FRAO et du Conseil National de l'Aviculture (CNA) pour valider la cartographie des acteurs de la filière avicole au Sénégal, analyser les dynamiques de marché et préparer une intégration régionale. Les échanges ont permis la diffusion et l'appropriation de la Stratégie de Développement de l'Aviculture Rurale (SDAR) et l'identification de priorités structurantes : digitalisation, finalisation des stratégies sectorielles IPAS 2025–2029 et intégration des segments industriels et familiaux.</p><h3>Structuration Institutionnelle et Dynamique Régionale</h3><p>L'atelier a abouti à un consensus sur la nécessité d'une interprofession forte au niveau national et à l'adoption d'une feuille de route pour une plateforme régionale multi-acteurs. Cette plateforme s'appuiera sur une task force opérationnelle et capitalisera les expériences passées, notamment l'UOFA, pour promouvoir le modèle sénégalais (IPAS) à l'échelle régionale.</p><h3>Recommandations Stratégiques</h3><p>Les recommandations clés portent sur la gouvernance (clarifier la réglementation, renforcer les partenariats public-privé), la structuration de la production (développer des unités nationales d'OAC agréées, améliorer les systèmes d'élevage villageois), le développement des marchés via des labels de qualité, la digitalisation des systèmes de suivi zootechnique et l'intégration régionale à travers une plateforme ouest-africaine multi-acteurs.</p>"
+  },
+  {
+    id: 1,
+    title: "Chaînes de valeur et agriculture résiliente",
+    image: "assets/leader1.jpg",
+    type: "Développement Agricole",
+    zone: "Sénégal, Gambie",
+    secteur: "Agriculture",
+    description: "Renforcement des capacités de production et d'organisation des acteurs des chaînes de valeur agricoles pour améliorer leurs revenus et leur résilience face aux changements climatiques.",
+    full_content: "<h3>Contexte et Enjeux du Développement Durable</h3><p>L'agriculture en Afrique de l'Ouest fait face à des défis majeurs liés au changement climatique, à la dégradation des sols et à la fluctuation des marchés. Promouvoir des chaînes de valeur et une agriculture résiliente est essentiel pour garantir la sécurité alimentaire et une croissance économique harmonieuse. Nos interventions ciblent spécifiquement les petits exploitants, véritables moteurs de l'économie rurale.</p><h3>Notre Stratégie d'Intervention</h3><p>Dans ce projet, la FRAO mise sur le renforcement des capacités et l'investissement intelligent. Nous accompagnons les agriculteurs dans l'adoption de pratiques agroécologiques, l'utilisation de semences résilientes, et la mise en place de systèmes d'irrigation économes en eau. L'objectif est double : augmenter les rendements de manière durable et réduire l'empreinte environnementale.</p><h3>Résultats et Impact à Long Terme</h3><p>L'autonomisation économique des acteurs locaux se mesure par l'augmentation de leurs revenus et leur résilience accrue face aux chocs climatiques. Ce programme s'inscrit pleinement dans les Objectifs de Développement Durable (ODD), avec un accent fort sur l'éradication de la pauvreté et la protection des écosystèmes. La gestion des savoirs et la capitalisation de ces expériences contribuent à influencer les politiques publiques régionales et internationales.</p>"
+  },
+  {
+    id: 2,
+    title: "Gouvernance foncière et sécurité alimentaire",
+    image: "assets/25Nairobi-Market.jpg",
+    type: "Politique Publique",
+    zone: "Afrique de l'Ouest",
+    secteur: "Foncier & Climat",
+    description: "Plaidoyer et appui technique pour une gouvernance foncière équitable, favorisant l'accès à la terre pour les groupes vulnérables et garantissant la sécurité alimentaire.",
+    full_content: "<h3>La Sécurité Foncière, Pilier de l'Agriculture</h3><p>L'accès sécurisé à la terre est la pierre angulaire du développement rural et de la sécurité alimentaire. Sans droits fonciers garantis, les agriculteurs ne peuvent investir durablement. Ce programme se penche sur la gouvernance foncière inclusive, en défendant particulièrement les droits des femmes et des jeunes ruraux, souvent marginalisés dans les processus décisionnels.</p><h3>Plaidoyer et Réformes Institutionnelles</h3><p>La FRAO agit comme un catalyseur du dialogue politique. Nous travaillons avec les gouvernements locaux, les leaders coutumiers et les organisations paysannes pour réformer les cadres juridiques fonciers. Ce travail de plaidoyer vise à sécuriser le foncier rural, à prévenir les conflits et à encourager les investissements productifs sur le long terme.</p><h3>Impact Environnemental et Social</h3><p>En sécurisant les droits à la terre, nous encourageons implicitement des pratiques durables de gestion des ressources naturelles (GRN). Les terres gérées par les communautés locales sont souvent celles qui présentent la meilleure biodiversité animale et végétale. Ce programme est essentiel pour bâtir une résilience économique et institutionnelle à l'échelle de toute l'Afrique de l'Ouest.</p>"
+  },
+  {
+    id: 3,
+    title: "Entrepreneuriat des jeunes ruraux",
+    image: "assets/image1.jpg",
+    type: "Autonomisation",
+    zone: "Mali, Burkina Faso",
+    secteur: "Jeunesse & Emploi",
+    description: "Programme d'accompagnement à la création d'entreprises agricoles et rurales durables par les jeunes, incluant la formation technique et le financement.",
+    full_content: "<h3>Jeunesse et Avenir Économique</h3><p>L'exode rural massif des jeunes prive l'agriculture de sa force vitale. Pour inverser cette tendance, la FRAO promeut l'entrepreneuriat des jeunes ruraux comme un puissant levier d'innovation et de création de richesses locales. En soutenant les jeunes pousses (startups) agropastorales, nous favorisons un véritable dynamisme économique qui rayonne sur tout le territoire.</p><h3>Formation Professionnelle et Financement</h3><p>Ce programme de renforcement des capacités déploie des incubateurs locaux pour doter les jeunes de compétences techniques, managériales et financières. Des mécanismes de microfinance et des fonds d'amorçage sont mis à disposition pour transformer des idées novatrices en entreprises rentables et socialement responsables, structurant ainsi les économies rurales modernes.</p><h3>Synergies et Réseaux de Réussite</h3><p>La gestion des savoirs et le mentorat sont au cœur de l'approche FRAO. En connectant les jeunes entrepreneurs aux réseaux de commercialisation et de distribution modernes, nous assurons la pérennité de leurs projets. L'auto-promotion de la jeunesse ouest-africaine devient un atout stratégique pour garantir des systèmes alimentaires souverains et une trajectoire de développement durable.</p>"
+  },
+  {
+    id: 4,
+    title: "Leadership féminin et accès aux ressources",
+    image: "assets/cassava.jpg",
+    type: "Inclusion Sociale",
+    zone: "Guinée, Niger",
+    secteur: "Genre",
+    description: "Améliorer le pouvoir décisionnel des femmes en milieu rural et faciliter leur accès aux ressources productives essentielles comme le crédit et la terre.",
+    full_content: "<h3>Les Femmes au Cœur du Développement</h3><p>Bien que les femmes produisent la majeure partie des denrées alimentaires en Afrique rurale, elles ont un accès restreint aux ressources productives (terres, intrants, financement). Renforcer le leadership féminin n'est pas qu'une question d'équité, mais une nécessité absolue pour le développement durable, la nutrition infantile, la santé et la croissance rurale équitable.</p><h3>Créer la Richesse grâce à l'Inclusion</h3><p>Par ce projet, la FRAO facilite l'accès des femmes aux instances décisionnelles locales. Des formations sur le leadership, la gestion financière et l'organisation en coopératives solides transforment les femmes en véritables chefs d'entreprises agricoles communales. Nous facilitons ainsi un système circulaire de production bénéficiant directement aux familles agricoles communautaires.</p><h3>Stratégies d'Auto-promotion</h3><p>En alignement avec notre mission d'auto-promotion, ce programme mise sur l'alphabétisation fonctionnelle et l'accès au micro-crédit. La résilience des communautés passe par la résilience financière des ménages. Les bénéficiaires deviennent d'actives agentes de changement pour affronter les défis climatiques, économiques et sociaux contemporains affectant de façon disproportionnée l'Afrique du Sud et l'Ouest de l'Afrique.</p>"
+  },
+  {
+    id: 5,
+    title: "Adaptation aux changements climatiques",
+    image: "assets/PUDC-smaljpg.jpg",
+    type: "Environnement",
+    zone: "Bassin du fleuve Sénégal",
+    secteur: "Climat",
+    description: "Mise en œuvre de pratiques agroécologiques et technologies intelligentes face au climat pour réduire la vulnérabilité des petits exploitants agricoles.",
+    full_content: "<h3>La Résilience Climatique à l'Échelle Rurale</h3><p>Les chocs climatiques, tels que les sécheresses prolongées ou les inondations inopinées, frappent durement l'économie de subsistance africaine. L'adaptation n'est plus une option, c'est la survie. Ce programme promeut une agriculture intelligente, durable et résiliente, conçue pour atténuer les effets désastreux des crises climatiques sur les paysages ouest-africains.</p><h3>Techniques d'Agroécologie et Biodiversité</h3><p>Nous introduisons et mettons à l'échelle des innovations écologiques simples et robustes : des variétés tolérantes à la chaleur, la régénération naturelle assistée (RNA) ou encore la conservation de l'eau. Ces approches éco-systémiques nourrissent les sols africains, captent du dioxyde de carbone à grande échelle (phytoséquestration) et renflouent considérablement les écosystèmes endommagés.</p><h3>Perspectives Scientifiques pour les Populations Rurales</h3><p>La FRAO collabore avec des chercheurs et partenaires institutionnels afin d'établir une interface solide entre la science et le paysannetariat. Par une gestion des savoirs et le relais constant d'informations climatiques locales et fiables (services hydro-climatiques ciblés), nous équipons les populations de leviers vitaux pour prévoir les récoltes et minimiser substantiellement les pertes.</p>"
+  },
+  {
+    id: 6,
+    title: "Gestion des savoirs et apprentissage",
+    image: "assets/tof10.jpg",
+    type: "Recherche & Action",
+    zone: "Régionale",
+    secteur: "Capitalisation",
+    description: "Production, documentation et diffusion des bonnes pratiques et des innovations en matière de développement rural pour influencer les politiques de la sous-région.",
+    full_content: "<h3>Capitaliser pour Impacter l'Avenir</h3><p>Les expériences riches du terrain restent souvent sous-exploitées par manque de documentation méthodique. L'ambition de ce pilier clé est la capitalisation rigoureuse et stratégique des savoirs. La mémoire collective paysanne, adossée aux recherches de terrain quantifiées de la FRAO, constitue un ensemble d'informations exceptionnellement stratégique qui forge l'action des politiques publiques ouest-africaines futures.</p><h3>Créer un Espace de Dialogue Permanent</h3><p>Grâce aux plateformes physiques et virtuelles, la FRAO relie les communautés locales pour systématiser la transmission intergénérationnelle et horizontale. Les succès identifiés dans le nord du Sénégal comme dans le sud du Mali peuvent être partagés librement de bénéficiaire en bénéficiaire, instituant un pont d'intelligence rurale extrêmement puissant à travers toute la région ciblée.</p><h3>Orientations et Influence Décisionnelle (Plaidoyer)</h3><p>Ces données de gestion des savoirs orientent l'action gouvernementale macroscopique, en offrant un modèle participatif ancré dans la réalité rurale vivante. Des notes de politiques, des rapports stratégiques pointus ou des symposiums de grande portée confèrent aux ruraux la place qui leur revient : non pas des observateurs du changement en cours mais de formidables co-constructeurs des politiques de développement durable et d'investissement agricole futur.</p>"
+  }
+];

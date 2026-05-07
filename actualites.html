@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Actualités | FRAO - Fondation Rurale de l'Afrique de l'Ouest</title>
+    <link rel="icon" type="image/png" href="assets/frao-logo.png">
+    <link rel="apple-touch-icon" href="assets/frao-logo.png">
+    <meta name="description"
+        content="Suivez les actualités de la FRAO : ateliers de formation, partenariats stratégiques, programmes de développement rural, résilience climatique et autonomisation des communautés en Afrique de l'Ouest.">
+    <meta name="keywords" content="Actualités FRAO, nouvelles agricoles, développement rural, Afrique de l'Ouest, résilience, formations FRAO, événements agricoles">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="FRAO - Fondation Rurale de l'Afrique de l'Ouest">
+    <link rel="canonical" href="https://frao.org/actualites.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://frao.org/actualites.html">
+    <meta property="og:site_name" content="FRAO">
+    <meta property="og:title" content="Actualités | FRAO">
+    <meta property="og:description"
+        content="Toute l'actualité du développement rural en Afrique de l'Ouest : formations, partenariats, gouvernance et chaînes de valeur agricoles.">
+    <meta property="og:image" content="https://frao.org/assets/frao-logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Actualités | FRAO">
+    <meta name="twitter:description" content="Toute l'actualité du développement rural en Afrique de l'Ouest.">
+    <meta name="twitter:image" content="https://frao.org/assets/frao-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body style="background-color: var(--surface-light);">
+
+    <!-- HEADER COMPACT -->
+    <header class="header" style="background-color: var(--primary-green-dark); padding: 20px 40px;">
+        <div class="logo">
+            <a href="index.html"><img src="assets/frao-logo.png" alt="FRAO Logo"
+                    style=""></a>
+        </div>
+        <nav class="nav" id="mobile-nav" style="color: #fff;">
+            <a href="index.html#who-we-are">Qui sommes-nous</a>
+            <a href="index.html#mission">Mission</a>
+            <a href="index.html#about">Impact</a>
+            <a href="index.html#approach">Approche</a>
+            <a href="projets.html">Programmes</a>
+            <a href="actualites.html" style="font-weight: 600;">Actualités</a>
+        </nav>
+        <div class="header-action">
+            <a href="index.html" class="btn-outline" style="color: #fff; border-color: rgba(255,255,255,0.4);">RETOUR
+                <iconify-icon icon="lucide:arrow-left"></iconify-icon></a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <iconify-icon icon="lucide:menu"></iconify-icon>
+        </div>
+    </header>
+
+    <!-- NEWS HERO SECTION -->
+    <section class="news-hero" style="padding: 80px 40px; max-width: 1400px; margin: 0 auto;">
+        <h1
+            style="font-family: var(--font-serif); font-size: 3.5rem; font-weight: 400; color: var(--primary-green-dark); margin-bottom: 60px;">
+            Nos Actualités</h1>
+
+        <!-- Top 2 Featured News will be injected here -->
+        <div class="featured-news-grid" id="featured-news-grid">
+            <!-- JavaScript will populate this -->
+        </div>
+    </section>
+
+    <!-- MID BANNER TEXT -->
+    <section class="mid-banner-section"
+        style="border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 80px 40px;">
+        <div class="grid-1-2" style="max-width: 1400px; margin: 0 auto;">
+            <div>
+                <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-dark);">Objectif du blog</span>
+            </div>
+            <div>
+                <h2
+                    style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 400; color: var(--primary-green-dark); line-height: 1.4; max-width: 800px;">
+                    Toute l'actualité dont vous avez besoin sur le développement rural. Statistiques actualisées,
+                    données et informations du terrain.
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN NEWS GRID & FILTERS -->
+    <section class="news-main-section" style="padding: 80px 40px; max-width: 1400px; margin: 0 auto;">
+        <div class="news-layout-grid">
+
+            <!-- Filters Sidebar -->
+            <aside class="news-filters">
+                <h3
+                    style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--primary-green-dark); margin-bottom: 30px;">
+                    Dernièrement</h3>
+
+                <div style="margin-bottom: 40px;">
+                    <h4
+                        style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 15px;">
+                        Catégories</h4>
+                    <ul id="category-filters" class="filter-list"
+                        style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px;">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+
+                <div>
+                    <h4
+                        style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 15px;">
+                        Années</h4>
+                    <ul id="year-filters" class="filter-list"
+                        style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px;">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Articles Grid -->
+            <div>
+                <div id="articles-grid" class="articles-grid-3">
+                    <!-- JavaScript will populate this -->
+                </div>
+
+                <!-- Load More wrapper -->
+                <div style="display: flex; justify-content: center; border-top: 1px solid var(--border-color); padding-top: 40px; display: none;"
+                    id="load-more-wrapper">
+                    <button id="load-more-btn" class="btn-outline"
+                        style="min-width: 250px; justify-content: center;">Charger plus d'articles</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter-section" style="padding: 80px 40px; text-align: center;">
+        <h2 style="font-family: var(--font-serif); font-size: 3rem; font-weight: 300; margin-bottom: 60px;">Rejoignez la
+            <span style="font-style: italic;">newsletter</span>
+        </h2>
+
+        <div
+            style="max-width: 900px; margin: 0 auto; position: relative; border-radius: 20px; overflow: hidden; height: 350px;">
+            <img src="assets/25Nairobi-Market.jpg" alt="Newsletter Background"
+                style="width: 100%; height: 100%; object-fit: cover;">
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px;">
+                <h3
+                    style="color: #fff; font-family: var(--font-serif); font-size: 2.2rem; font-weight: 400; margin-bottom: 15px;">
+                    Restons connectés</h3>
+                <p style="color: rgba(255,255,255,0.8); margin-bottom: 30px; font-size: 1.1rem;">Toutes les dernières
+                    actualités et projets de la FRAO</p>
+
+                <form
+                    style="display: flex; background: #fff; padding: 6px; border-radius: 50px; width: 100%; max-width: 450px;">
+                    <input type="email" placeholder="Votre email"
+                        style="border: none; outline: none; padding: 10px 20px; flex: 1; border-radius: 50px; font-family: var(--font-sans);">
+                    <button type="submit"
+                        style="background-color: var(--primary-green-dark); color: #fff; border: none; padding: 12px 24px; border-radius: 50px; font-family: var(--font-sans); font-weight: 500; cursor: pointer; transition: background 0.3s ease;">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact"
+        style="background-image: linear-gradient(to bottom, rgba(15, 29, 16, 0.7), rgba(15, 29, 16, 0.95)), url('assets/PUDC-smaljpg.jpg');">
+        <div class="footer-cta">
+            <h2>Le progrès par<br>le partenariat</h2>
+            <p>Votre collaboration avec la FRAO contribue au développement des filières agricoles, à la gouvernance
+                locale et à la résilience climatique.</p>
+            <a href="mailto:secretary@frao.org" class="btn-outline">COLLABORONS <iconify-icon
+                    icon="lucide:arrow-up-right"></iconify-icon></a>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-brand">
+                <img src="assets/frao-logo.png" alt="FRAO Logo" style="">
+            </div>
+
+            <div class="footer-address">
+                <p style="line-height: 1.8;">
+                    Fondation Rurale de l'Afrique de l'Ouest<br>
+                    Résidence Prosper, Lot 12, Rue MZ 87<br>
+                    Dakar, Sénégal<br>
+                    <a href="tel:+221338650060" style="color: rgba(255,255,255,0.7); text-decoration: none;">+221 33 865
+                        00 60</a><br>
+                    <a href="mailto:secretary@frao.org"
+                        style="color: rgba(255,255,255,0.7); text-decoration: none;">secretary@frao.org</a>
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <div class="link-col">
+                    <span>Fondation</span>
+                    <a href="index.html#about">Mission</a>
+                    <a href="index.html#approach">Approche</a>
+                    <a href="projets.html">Projets</a>
+                </div>
+                <div class="link-col">
+                    <span>Aide</span>
+                    <a href="mailto:secretary@frao.org">Contact</a>
+                    <a href="#">Ressources</a>
+                </div>
+        </div>
+
+        <div class="footer-legal">
+            <p>&copy; 2026 FRAO. Tous droits réservés.</p>
+            <div class="legal-links">
+                <a href="#">Confidentialité</a>
+                <a href="#">Termes</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/actualites-data.js"></script>
+    <script src="js/actualites.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.addEventListener("DOMContentLoaded", () => {
+          const hamburger = document.getElementById("hamburger");
+          const mobileNav = document.getElementById("mobile-nav");
+          
+          if(hamburger && mobileNav) {
+            hamburger.addEventListener("click", () => {
+              mobileNav.classList.toggle("active");
+              const icon = mobileNav.classList.contains("active") ? "lucide:x" : "lucide:menu";
+              hamburger.innerHTML = `<iconify-icon icon="${icon}"></iconify-icon>`;
+            });
+            
+            // Close menu on link click
+            mobileNav.querySelectorAll('a').forEach(link => {
+              link.addEventListener('click', () => {
+                 mobileNav.classList.remove("active");
+                 hamburger.innerHTML = `<iconify-icon icon="lucide:menu"></iconify-icon>`;
+              });
+            });
+          }
+        });
+    </script>
+<script src="js/animations.js"></script>
+</body>
+
+</html>

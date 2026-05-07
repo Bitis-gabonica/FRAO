@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(pip3 install *)",
+      "Bash(sed -i '' 's|assets/frao-logo-new\\\\.png|assets/frao-logo.jpg|g' index.html actualites.html actualite-detail.html projet.html projets.html)",
+      "Bash(sed -i '' 's|https://frao\\\\.org/assets/frao-logo-new\\\\.png|https://frao.org/assets/frao-logo.jpg|g' index.html actualites.html actualite-detail.html projet.html projets.html)"
+    ]
+  }
+}

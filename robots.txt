@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frao.org/sitemap.xml
