@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp /tmp/frao-docs/atelier/word/media/image1.jpeg /tmp/frao-docs/atelier/word/media/image2.jpeg /tmp/frao-docs/atelier/word/media/image3.jpeg /tmp/frao-docs/bonaba/word/media/image2.jpeg /tmp/frao-docs/bonaba/word/media/image3.jpeg /tmp/frao-docs/bonaba/word/media/image4.jpeg /tmp/frao-docs/mballing/word/media/image1.jpeg /tmp/frao-docs/mballing/word/media/image2.jpeg /tmp/frao-docs/mballing/word/media/image3.jpeg \"c:/Users/theab/Desktop/FRAO/\" && ls \"c:/Users/theab/Desktop/FRAO/\"*.jpeg)",
+      "Bash(rm \"c:/Users/theab/Desktop/FRAO/\"*.jpeg)",
+      "Bash(cp /tmp/frao-docs/bonaba/word/media/image2.jpeg \"c:/Users/theab/Desktop/FRAO/_tmp_imgs/bonaba-2.jpeg\")",
+      "Bash(cp /tmp/frao-docs/bonaba/word/media/image3.jpeg \"c:/Users/theab/Desktop/FRAO/_tmp_imgs/bonaba-3.jpeg\")",
+      "Bash(cp /tmp/frao-docs/bonaba/word/media/image4.jpeg \"c:/Users/theab/Desktop/FRAO/_tmp_imgs/bonaba-4.jpeg\")",
+      "Bash(cp /tmp/frao-docs/mballing/word/media/image1.jpeg \"c:/Users/theab/Desktop/FRAO/_tmp_imgs/mballing-1.jpeg\")",
+      "Bash(rm -rf \"c:/Users/theab/Desktop/FRAO/_tmp_imgs\" /tmp/frao-docs && git status)",
+      "Bash(node -e \"require\\('./js/actualites-data.js'\\); console.log\\('articles:', actualitesData.length\\); console.log\\('first 3 ids:', actualitesData.slice\\(0,3\\).map\\(a => a.id\\)\\); console.log\\('have full_content:', actualitesData.filter\\(a => a.full_content\\).map\\(a => a.id\\)\\);\")",
+      "PowerShell($content = Get-Content -Raw -Path \"js/actualites-data.js\"; $js = $content -replace 'const actualitesData = ', ''; try { $obj = $js | ConvertFrom-Json; Write-Host \"articles: $\\($obj.Count\\)\"; Write-Host \"first 3 ids: $\\($obj[0..2].id -join ', '\\)\"; $withFull = $obj | Where-Object { $_.full_content }; Write-Host \"have full_content: $\\($withFull.id -join ', '\\)\" } catch { Write-Host \"JSON parse error: $_\" })",
+      "Bash([ -f \"c:/Users/theab/Desktop/FRAO/$img\" ])",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ],
+    "additionalDirectories": [
+      "\\tmp\\frao-docs\\atelier\\word\\media",
+      "\\tmp"
+    ]
+  }
+}
