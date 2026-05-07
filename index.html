@@ -439,7 +439,7 @@
     });
   </script>
   <script>
-    // Remove loader after 3.5 seconds
+    // Remove loader after 5 seconds
     window.addEventListener("load", () => {
       const loader = document.getElementById("loader");
       if (loader) {
@@ -450,8 +450,8 @@
           document.body.style.overflow = ""; // Restore scroll
           setTimeout(() => {
             loader.style.display = "none";
-          }, 500); // Wait for fade out
-        }, 3500);
+          }, 800); // Wait for fade out
+        }, 5000);
       }
     });
   </script>

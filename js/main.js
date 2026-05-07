@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let html = "";
 
-    projectsData.forEach(project => {
+    projectsData.slice(0, 3).forEach(project => {
         html += `
       <div class="program-card flip-card" onclick="window.location.href='projet.html?id=${project.id}'">
         <div class="flip-card-inner">

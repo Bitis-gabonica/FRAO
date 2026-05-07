@@ -4,7 +4,17 @@
       "Bash(python3 -c ' *)",
       "Bash(pip3 install *)",
       "Bash(sed -i '' 's|assets/frao-logo-new\\\\.png|assets/frao-logo.jpg|g' index.html actualites.html actualite-detail.html projet.html projets.html)",
-      "Bash(sed -i '' 's|https://frao\\\\.org/assets/frao-logo-new\\\\.png|https://frao.org/assets/frao-logo.jpg|g' index.html actualites.html actualite-detail.html projet.html projets.html)"
+      "Bash(sed -i '' 's|https://frao\\\\.org/assets/frao-logo-new\\\\.png|https://frao.org/assets/frao-logo.jpg|g' index.html actualites.html actualite-detail.html projet.html projets.html)",
+      "Bash(mkdir -p /tmp/frao-docs/atelier /tmp/frao-docs/bonaba /tmp/frao-docs/mballing)",
+      "Bash(unzip -o \"Atelier stratégique sur l'aviculture.docx\" -d /tmp/frao-docs/atelier)",
+      "Bash(unzip -o \"Bonaba Impulsion microfinance.docx\" -d /tmp/frao-docs/bonaba)",
+      "Bash(unzip -o \"Mballing.docx\" -d /tmp/frao-docs/mballing)",
+      "Bash(ls /tmp/frao-docs/atelier/word/media/ /tmp/frao-docs/bonaba/word/media/ /tmp/frao-docs/mballing/word/media/ 2>&1)",
+      "Read(//tmp/frao-docs/atelier/word/**)",
+      "Bash(ls -la /tmp/frao-docs/atelier/word/media/ /tmp/frao-docs/bonaba/word/media/ /tmp/frao-docs/mballing/word/media/)",
+      "Read(//tmp/frao-docs/bonaba/word/**)",
+      "Read(//tmp/frao-docs/atelier/word/media/**)",
+      "Read(//c/tmp/frao-docs/atelier/word/media/**)"
     ]
   }
 }

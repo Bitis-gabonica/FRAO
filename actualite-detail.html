@@ -144,6 +144,25 @@
             margin-bottom: 8px;
         }
 
+        .article-body figure {
+            margin: 36px 0;
+        }
+
+        .article-body figure img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .article-body figure figcaption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
         .article-body blockquote {
             border-left: 4px solid var(--primary-green);
             padding: 20px 30px;
@@ -593,8 +612,27 @@
                 return url.searchParams.get(name);
             }
 
-            // Rich content generator based on category/title/excerpt
+            // Rich content generator based on category/title/excerpt.
+            // If post.full_content is provided, it is rendered as the article body
+            // (wrapped in the same excerpt box and share row), bypassing the template.
             function generateRichContent(post) {
+                if (post.full_content) {
+                    return `
+            <div class="article-excerpt-box">
+                <p>${post.excerpt}</p>
+            </div>
+            ${post.full_content}
+            <div class="share-row">
+                <span>Partager :</span>
+                <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(window.location.href)}" target="_blank" class="share-btn">
+                    <iconify-icon icon="lucide:twitter"></iconify-icon> Twitter/X
+                </a>
+                <button class="share-btn" onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='✓ Copié!')">
+                    <iconify-icon icon="lucide:link"></iconify-icon> Copier le lien
+                </button>
+            </div>
+            `;
+                }
                 const categoryDescriptions = {
                     "Partenariat": "Acteur engagé dans des partenariats stratégiques en Afrique de l'Ouest, la FRAO collabore avec des institutions internationales, des ONG locales et des gouvernements pour maximiser l'impact de ses programmes de développement rural.",
                     "Gouvernance": "La bonne gouvernance est au cœur de la mission de la FRAO. Des processus transparents, participatifs et inclusifs garantissent que les communautés rurales disposent des outils nécessaires pour gérer durablement leurs ressources.",
