@@ -12,7 +12,14 @@
       "PowerShell($content = Get-Content -Raw -Path \"js/actualites-data.js\"; $js = $content -replace 'const actualitesData = ', ''; try { $obj = $js | ConvertFrom-Json; Write-Host \"articles: $\\($obj.Count\\)\"; Write-Host \"first 3 ids: $\\($obj[0..2].id -join ', '\\)\"; $withFull = $obj | Where-Object { $_.full_content }; Write-Host \"have full_content: $\\($withFull.id -join ', '\\)\" } catch { Write-Host \"JSON parse error: $_\" })",
       "Bash([ -f \"c:/Users/theab/Desktop/FRAO/$img\" ])",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "PowerShell(python -c \"import pypdf; r = pypdf.PdfReader\\('PSQ6 FRAO Version Francais VF.pdf'\\); [print\\(f'--- PAGE {i+1} ---'\\); print\\(p.extract_text\\(\\)\\) for i, p in enumerate\\(r.pages\\)]\" 2>&1)",
+      "Read(//c/Program Files/**)",
+      "PowerShell(try { $word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\(\\(Resolve-Path \"PSQ6 FRAO Version Francais VF.pdf\"\\).Path, $false, $true\\); $text = $doc.Content.Text; $doc.Close\\($false\\); $word.Quit\\(\\); $text | Out-File -FilePath \"c:\\\\tmp\\\\psq6.txt\" -Encoding utf8; Write-Host \"OK - chars: $\\($text.Length\\)\" } catch { Write-Host \"Error: $_\" })",
+      "Bash(python -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8765/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8765/qui-sommes-nous.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8765/projets.html)"
     ],
     "additionalDirectories": [
       "\\tmp\\frao-docs\\atelier\\word\\media",

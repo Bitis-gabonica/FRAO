@@ -35,13 +35,21 @@ No router. Detail pages use URL query parameters to look up data client-side:
 | [js/main.js](js/main.js) | Homepage: renders flip-card project grid from `projectsData` |
 | [js/projets.js](js/projets.js) | Projects page: renders non-flip project grid |
 | [js/actualites.js](js/actualites.js) | News page: featured articles, category/year filtering, pagination (6/page) |
+| [js/home-actualites.js](js/home-actualites.js) | Homepage: renders the 3 most recent articles into the `#actualites-preview-grid` |
 | [js/animations.js](js/animations.js) | Scroll-triggered Intersection Observer animations + hero word-reveal |
 
+### Page architecture (refonte mai 2026)
+Following Ngouye Fall's feedback, the site was restructured around 5 nav entries: **Qui sommes-nous**, **Programmes**, **Actualités**, **Partenaires**, **Contacts**.
+- [qui-sommes-nous.html](qui-sommes-nous.html) — dedicated page with 6 sections (hero identifiant, histoire/timeline, identité, vision/mission, 3 orientations stratégiques OS1/OS2/OS3, gouvernance). Content sourced from `PSQ6 FRAO Version Francais VF.pdf`.
+- [index.html](index.html) was slimmed down: the old `#who-we-are`, `#mission`, `#piliers`, `#approach` sections were removed (migrated to qui-sommes-nous.html). Home now has: hero identifiant, raison d'être, programmes preview, actualités preview, `#partenaires` (4 categories of partners with monogram cards), `#contact` (full address, phone, NINEA, Google Maps embed).
+- The design spec lives at [docs/superpowers/specs/2026-05-08-restructuration-frao-design.md](docs/superpowers/specs/2026-05-08-restructuration-frao-design.md).
+
 ### CSS
-Single stylesheet [styles.css](styles.css) (~1,840 lines). Uses CSS custom properties defined at the top:
+Single stylesheet [styles.css](styles.css) (~2,850 lines). Uses CSS custom properties defined at the top:
 - `--primary-green: #176b2f`, `--secondary-amber: #e69d00`
 - Fonts: Montserrat (headings) and Work Sans (body), loaded from Google Fonts
 - Icons: Iconify CDN v1.0.7 (lucide icon set)
+- The May 2026 restructuration adds `.qsn-*`, `.raison`, `.actu-preview-*`, `.partners-*`, `.contact-section` classes (all under a clearly-marked `RESTRUCTURATION 2026` block at the end of the file).
 
 ## Key Conventions
 

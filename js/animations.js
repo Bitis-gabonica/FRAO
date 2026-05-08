@@ -86,9 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Add animation classes to elements we want to animate on scroll
     const selectorsToAnimate = [
-        '.stat-item', 
-        '.about-image', 
-        '.about-content', 
+        '.stat-item',
+        '.about-image',
+        '.about-content',
         '.mission-title',
         '.timeline-item',
         '.program-card',
@@ -100,6 +100,18 @@ document.addEventListener("DOMContentLoaded", () => {
         '.article-body h2',
         '.article-body p'
     ];
+
+    // Frise objectifs : observer dédié, ne marque pas .animate-on-scroll
+    // (les transitions sont gérées par la CSS .frise-item.is-visible)
+    const friseObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    document.querySelectorAll('.frise-item').forEach(el => friseObserver.observe(el));
 
     // Give them a pre-animation state
     document.head.insertAdjacentHTML('beforeend', `
