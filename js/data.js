@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: 7,
     title: "Microfinance coopérative et gouvernance du crédit (Bonaba)",
-    image: "assets/bonaba-3.jpeg",
+    image: "assets/bonaba-3.jpeg?v=20260530",
     type: "Renforcement Institutionnel",
     zone: "Bonaba / Lac Rose, Sénégal",
     secteur: "Microfinance",
@@ -12,7 +12,7 @@ const projectsData = [
   {
     id: 8,
     title: "Autonomisation des femmes par la transformation agroalimentaire (Mballing)",
-    image: "assets/mballing-3.jpeg",
+    image: "assets/mballing-3.jpeg?v=20260530",
     type: "Inclusion Sociale",
     zone: "Mballing, Sénégal",
     secteur: "Genre & Agroalimentaire",
@@ -22,7 +22,7 @@ const projectsData = [
   {
     id: 9,
     title: "Structuration de la filière avicole ouest-africaine (IPAS-FRAO-CNA)",
-    image: "assets/aviculture-1.jpeg",
+    image: "assets/aviculture-1.jpeg?v=20260530",
     type: "Gouvernance Régionale",
     zone: "Sénégal / Afrique de l'Ouest",
     secteur: "Aviculture",
@@ -32,7 +32,7 @@ const projectsData = [
   {
     id: 1,
     title: "Chaînes de valeur et agriculture résiliente",
-    image: "assets/leader1.jpg",
+    image: "assets/leader1.jpg?v=20260530",
     type: "Développement Agricole",
     zone: "Sénégal, Gambie",
     secteur: "Agriculture",
@@ -42,7 +42,7 @@ const projectsData = [
   {
     id: 2,
     title: "Gouvernance foncière et sécurité alimentaire",
-    image: "assets/25Nairobi-Market.jpg",
+    image: "assets/25Nairobi-Market.jpg?v=20260530",
     type: "Politique Publique",
     zone: "Afrique de l'Ouest",
     secteur: "Foncier & Climat",
@@ -52,7 +52,7 @@ const projectsData = [
   {
     id: 3,
     title: "Entrepreneuriat des jeunes ruraux",
-    image: "assets/image1.jpg",
+    image: "assets/image1.jpg?v=20260530",
     type: "Autonomisation",
     zone: "Mali, Burkina Faso",
     secteur: "Jeunesse & Emploi",
@@ -62,7 +62,7 @@ const projectsData = [
   {
     id: 4,
     title: "Leadership féminin et accès aux ressources",
-    image: "assets/cassava.jpg",
+    image: "assets/cassava.jpg?v=20260530",
     type: "Inclusion Sociale",
     zone: "Guinée, Niger",
     secteur: "Genre",
@@ -72,7 +72,7 @@ const projectsData = [
   {
     id: 5,
     title: "Adaptation aux changements climatiques",
-    image: "assets/PUDC-smaljpg.jpg",
+    image: "assets/PUDC-smaljpg.jpg?v=20260530",
     type: "Environnement",
     zone: "Bassin du fleuve Sénégal",
     secteur: "Climat",
@@ -82,7 +82,7 @@ const projectsData = [
   {
     id: 6,
     title: "Gestion des savoirs et apprentissage",
-    image: "assets/tof10.jpg",
+    image: "assets/tof10.jpg?v=20260530",
     type: "Recherche & Action",
     zone: "Régionale",
     secteur: "Capitalisation",

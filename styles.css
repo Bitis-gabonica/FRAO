@@ -9,6 +9,8 @@
   /* FRAO Colors - Warm & Modern Theme */
   --primary-green: #176b2f;
   --primary-green-dark: #0e3b18;
+  --primary-green-bright: #1f8f3d;
+  --primary-green-soft: rgba(23, 107, 47, 0.08);
   --secondary-amber: #e69d00;
   --surface-light: #ffffff;
   --surface-amber: #ffffff;
@@ -1887,7 +1889,7 @@ img {
 /* --- Hero title FRAO refresh -------------------------------------------- */
 .hero-title-frao {
   font-size: clamp(2.4rem, 6vw, 5rem);
-  line-height: 1.05;
+  line-height: 1.25;
   letter-spacing: -0.01em;
   font-weight: 600;
 }
@@ -3148,5 +3150,218 @@ img {
   }
   .frise-list::before {
     display: none;
+  }
+}
+
+/* =========================================================================
+   IDENTITÉ VERTE FRAO - Renforcement (mai 2026)
+   Objectif : rendre le vert FRAO dominant dans titres, menus, boutons,
+   accents et icônes ; harmoniser les nuances.
+========================================================================= */
+
+/* Sous-titres de section : passage du gris au vert FRAO */
+.section-subtitle {
+  color: var(--primary-green);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+/* Titres de section : nuance plus dense, taille soutenue */
+.section-title {
+  color: var(--primary-green-dark);
+  letter-spacing: -0.005em;
+}
+
+/* Boutons outline sur fond clair : par défaut, encadré et texte verts FRAO */
+.subpage-header .btn-outline,
+.programs-header .btn-outline,
+.frise .btn-outline {
+  color: var(--primary-green-dark);
+  border-color: var(--primary-green);
+}
+.programs-header .btn-outline:hover,
+.frise .btn-outline:hover {
+  background-color: var(--primary-green-dark);
+  border-color: var(--primary-green-dark);
+  color: #fff !important;
+}
+
+/* Bouton hero "CONTACTEZ-NOUS" sur image : ajoute une teinte verte à l'hover */
+.hero .btn-outline:hover {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+/* MENU PRINCIPAL - état actif et hover en vert FRAO sur fond clair */
+.subpage-header .nav a {
+  position: relative;
+  transition: color 0.25s ease;
+}
+.subpage-header .nav a:hover {
+  color: var(--primary-green-bright);
+  opacity: 1;
+}
+.subpage-header .nav a.nav-active {
+  color: var(--primary-green-bright);
+  font-weight: 600;
+}
+.subpage-header .nav a.nav-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  background: var(--primary-green-bright);
+  border-radius: 2px;
+}
+
+/* MENU sur hero (header transparent index.html) - garde le blanc mais ajoute
+   un soulignage vert à l'item actif pour réaffirmer l'identité */
+.hero .nav a {
+  position: relative;
+  transition: color 0.25s ease;
+}
+.hero .nav a:hover {
+  color: #b9efc7;
+}
+.hero .nav a.nav-active {
+  color: #fff;
+  font-weight: 600;
+}
+.hero .nav a.nav-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  background: #56d579;
+  border-radius: 2px;
+}
+
+/* RAISON - chiffres clés en vert FRAO (au lieu d'amber par défaut s'il y avait) */
+.raison-stat-num {
+  color: var(--primary-green-dark);
+}
+
+/* FRISE - numéros et titres en vert */
+.frise-num,
+.frise-content h3 {
+  color: var(--primary-green-dark);
+}
+.frise-illu {
+  color: var(--primary-green);
+}
+
+/* PROGRAMMES - léger lift au hover, sans bordure latérale */
+.program-card,
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Rendu des images projets : interpolation haute qualité + léger boost contraste/saturation
+   pour compenser la perte de netteté lors du redimensionnement par le navigateur. */
+.program-image img,
+.project-card img,
+.flip-card-front {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: auto;
+}
+.program-image img,
+.project-card img {
+  filter: contrast(1.04) saturate(1.05);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* PARTENAIRES - icônes plus marquées, numérotation verte */
+.partners-case-icon {
+  color: var(--primary-green-bright);
+}
+.partners-case-head h3 {
+  color: var(--primary-green-dark);
+}
+.partners-case-head {
+  border-bottom: 2px solid var(--primary-green);
+}
+.pnum {
+  color: var(--primary-green);
+  font-weight: 600;
+}
+.picon {
+  color: var(--primary-green-bright);
+}
+
+/* CONTACT - liens en vert au hover (sans bordure latérale) */
+.contact-card a:hover {
+  color: var(--primary-green);
+}
+
+/* QSN - icônes de la page Qui sommes-nous toutes en vert */
+.qsn-tag,
+.qsn-section-tag {
+  color: var(--primary-green);
+}
+.qsn-hero-title,
+.qsn-section-title {
+  color: var(--primary-green-dark);
+}
+
+/* FOOTER - mise en valeur des liens en hover vert clair */
+.footer a:hover {
+  color: #9bd9a8 !important;
+}
+.link-col a:hover {
+  color: #9bd9a8;
+  opacity: 1;
+}
+.link-col span {
+  color: var(--secondary-amber);
+}
+
+/* LOADER - touche verte sur la barre de progression */
+.loader-progress-bar {
+  background: linear-gradient(90deg, var(--primary-green), var(--primary-green-bright)) !important;
+}
+
+/* Sélection de texte en vert FRAO - cohérence globale */
+::selection {
+  background: var(--primary-green);
+  color: #fff;
+}
+
+/* Liens dans le contenu d'article actualité - vert FRAO */
+.article-body a {
+  color: var(--primary-green-dark);
+  border-bottom: 1px solid var(--primary-green);
+}
+.article-body a:hover {
+  color: var(--primary-green-bright);
+  border-bottom-color: var(--primary-green-bright);
+}
+
+/* Scrollbar discrète en vert FRAO (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-green);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-green-dark);
+}
+
+/* MOBILE - menu hamburger ouvert : items actifs en vert vif */
+@media (max-width: 768px) {
+  .nav a.nav-active {
+    color: var(--primary-green-bright) !important;
+  }
+  .nav a:hover {
+    color: var(--primary-green-bright);
   }
 }
