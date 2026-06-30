@@ -6,11 +6,11 @@ const actualitesData = [
     "date": "11 Juin 2026",
     "year": "2026",
     "category": "Partenariat",
-    "image": "assets/frao-home.jpg?v=20260630",
+    "image": "assets/frao-card.svg?v=20260630",
     "excerpt": "Du 8 au 11 juin 2026, Dakar a accueilli la 14ᵉ réunion du Partenariat mondial pour l'élevage durable (GASL). Membre du GASL, la FRAO — représentée par le Pr Cheikh Ly et M. Ngouye Fall — y a porté la voix de l'Afrique de l'Ouest sur la résilience pastorale, la durabilité agricole et la souveraineté alimentaire.",
     "read_time_min": 4,
     "full_content": `
-<!-- IMAGE PROVISOIRE : assets/frao-home.jpg est utilisée en attendant la vraie PHOTO GASL (cérémonie d'ouverture, Noom Hotel Dakar Sea Plaza) — remplacer le champ "image" ci-dessus dès réception. -->
+<!-- Visuel : carte blanche au logo FRAO (assets/frao-card.svg), faute de photo GASL. Remplacer le champ "image" ci-dessus par la vraie photo dès réception (cérémonie d'ouverture, Noom Hotel Dakar Sea Plaza). -->
 <p>La capitale sénégalaise est devenue, du 8 au 11 juin 2026, l'épicentre mondial des réflexions sur l'avenir de l'élevage durable. Le Noom Hotel Dakar Sea Plaza a abrité la 14ᵉ réunion du Partenariat multipartite de l'Agenda mondial pour l'élevage durable (GASL), un événement d'envergure internationale organisé en collaboration avec la FAO, le Ministère sénégalais de l'Agriculture, de la Souveraineté alimentaire et de l'Élevage, l'Union africaine (AU-IBAR) et l'Institut international de recherche sur l'élevage (ILRI).</p>
 <!-- PHOTO 1 GASL à insérer ici : réunion GASL / cérémonie d'ouverture au Noom Hotel Dakar Sea Plaza (à fournir par Ngouye Fall). -->
 <h3>Une cérémonie d'ouverture présidée par le ministre</h3>
@@ -57,15 +57,12 @@ const actualitesData = [
     "date": "Mars 2026",
     "year": "2026",
     "category": "Agriculture",
-    "image": "assets/aviculture-1.jpeg?v=20260630",
+    "image": "assets/frao-card.svg?v=20260630",
     "excerpt": "Forte de plus de quinze ans d'expérience, la FRAO s'impose comme un acteur clé du nouveau Groupe de Travail sur le financement de l'aviculture rurale au Sénégal, lancé au premier trimestre 2026 : structuration des coopératives, mécanismes financiers innovants, biosécurité et valorisation du poulet local amélioré.",
     "read_time_min": 6,
     "full_content": `
+<!-- Visuel : carte blanche au logo FRAO (assets/frao-card.svg), faute de photo dédiée au Groupe de Travail. Remplacer le champ "image" ci-dessus par une vraie photo dès disponibilité. -->
 <p>La Fondation Rurale de l'Afrique de l'Ouest (FRAO) est un acteur important dans le nouveau Groupe de Travail sur le financement de l'aviculture rurale au Sénégal lancé durant le premier trimestre 2026. Forte de plus de quinze ans d'expérience dans la structuration des filières agricoles, la FRAO mobilise son expertise pour relever les défis majeurs, tels que l'accès aux financements, la gouvernance des organisations, la biosécurité et la valorisation du poulet local amélioré.</p>
-<figure>
-  <img src="assets/aviculture-2.jpeg?v=20260630" alt="Filière avicole rurale au Sénégal">
-  <figcaption>La structuration de la filière avicole rurale, au cœur des priorités du nouveau Groupe de Travail sur le financement.</figcaption>
-</figure>
 <h3>Des contributions clés</h3>
 <p>Ses contributions clés couvrent :</p>
 <ul>
